@@ -1,0 +1,31 @@
+.container {
+  width: 80%;
+  margin: 1rem 0;
+  height: 31.5rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.548);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  overflow-y: scroll;
+}
+.heading {
+  margin-bottom: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.paraAbout {
+  line-height: 1.7rem;
+  color: black;
+}
+@media (max-height: 700px) {
+  .container {
+    height: 64vh;
+    margin: 0.5rem 0;
+  }
+  .heading {
+    margin-bottom: 1rem;
+  }
+  .paraAbout {
+    line-height: 1.5rem;
+    color: black;
+  }
+}
